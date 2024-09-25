@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    background-image: url("https://preview.colorlib.com/theme/expo/assets/img/hero/h1_hero1.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+
+.positionheader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(255, 248, 254);
+    padding: 0 65px !important;
+}
+
+.headerig {
+    background-color: transparent;
+}
+
+.homepage {
+    margin-top: 150px;
+}
+
+
+.title {
+    font-size: 55px;
+    color: rgb(66, 63, 141);
+}
+
+.information {
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(66, 63, 141);
+    margin-bottom: 30px;
+}
+
+.explore {
+    width: 180px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: rgb(255, 105, 0);
+    color: rgb(255, 254, 253);
+    border: none;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.trusted {
+    font-size: 30px;
+    color: rgb(66, 63, 141);
+}
+
+.content {
+    font-size: 17px;
+    color: rgb(121, 119, 162);
+}
+
+
+.imgss {
+    width: 100%;
+}
+
+.imgss2 {
+    width: 100%;
+}
+
+.titlepage {
+    background-color: rgb(255, 248, 254);
+    width: 100%;
+}
+
+.colour {
+    background-color: white;
+    padding: 35px 35px 35px 35px;
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.06);
+}
+
+.digital {
+    color: rgb(66, 63, 141);
+    font-size: 30px;
+    padding-left: 25px;
+}
+
+.word {
+    color: rgb(122, 120, 163);
+    font-size: 15px;
+    padding-left: 60px;
+}
+
+.help {
+    color: rgb(66, 63, 141);
+    font-size: 50px;
+    padding-top: 70px;
+}
+
+.marketingcontent {
+    color: rgb(121, 119, 162);
+    font-size: 20px;
+}
+
+.title1 {
+    font-size: 50px;
+    color: rgb(66, 63, 141);
+}
+
+.information2 {
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(66, 63, 141);
+    margin-bottom: 30px;
+}
+
+.explore3 {
+    width: 180px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: rgb(255, 105, 0);
+    color: rgb(255, 254, 253);
+    border: none;
+}
+
+.lpage {
+    margin-top: 100px;
+}
+
+.plan {
+    color: rgb(66, 63, 141);
+    font-size: 50px;
+}
+
+.nothing {
+    color: rgb(121, 124, 170);
+    font-size: 18px;
+}
+
+.padding2 {
+    padding-bottom: 100px;
+}
+
+.bgbox {
+    background-color: rgb(255, 248, 254);
+    padding-bottom: 100px;
+    padding-top: 35px;
+}
+
+
+.bgbox:hover {
+    box-shadow: 0px 15px 30px rgba(255, 87, 0, 0.12);
+    background-color: rgb(255, 255, 255);
+}
+
+.title3 {
+    color: rgb(255, 87, 0);
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.users {
+    color: rgb(131, 119, 164);
+    padding-bottom: 100px;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.traffic {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.social {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.free {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.support {
+    font-size: 20px;
+    padding-bottom: 90px;
+}
+
+.titlebg {
+    background-color: rgb(67, 62, 137);
+    padding: 80px 0;
+}
+
+.value {
+    color: rgb(247, 255, 255);
+    font-size: 20px;
+}
+
+.talk-project {
+    display: flex;
+    align-items: center;
+}
+
+.Let {
+    color: rgb(247, 255, 255);
+}
+
+.talking {
+    height: 60px;
+    width: 180px;
+    border-radius: 50px;
+    background-color: rgb(67, 62, 137);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+}
+
+.talking:hover {
+    background-color: rgb(255, 87, 0);
+    border: 0px;
+}
+
+footer {
+    padding-top: 100px;
+}
+
+.home1 {
+    color: rgb(128, 143, 192);
+}
+
+.contactus {
+    color: rgb(66, 63, 142);
+}
+
+.number {
+    font-size: 30px;
+    color: rgb(255, 87, 0);
+}
+
+.business {
+    padding-left: 40px;
+}
+
+.colour2 {
+    display: flex;
+}
+
+.servicetop {
+    margin-top: 100px;
+}
+
+.servicetitle {
+    font-size: 60px;
+    color: rgb(66, 63, 141);
+}
+
+.servicetext {
+    font-size: 20px;
+    color: rgb(66, 63, 141);
+}
+
+.home2 {
+    background-image: url("https://preview.colorlib.com/theme/expo/assets/img/hero/h1_hero1.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    min-height: 60vh;
+    width: 100%;
+}
+
+.help2 {
+    color: rgb(66, 63, 141);
+    font-size: 50px;
+}
+
+.maptop {
+    padding-top: 100px;
+}
+
+.message {
+    width: 100%;
+    height: 235px;
+    border: 1px solid rgb(97, 100, 100);
+    padding-bottom: 180px;
+    padding-left: 10px;
+}
+
+.woodname {
+    margin-left: 8.333333%;
+}
+
+.namemail {
+    width: 48%;
+    height: 47px;
+    border: 1px solid rgb(97, 100, 100);
+    padding-left: 10px;
+
+}
+
+.name {
+    width: 48%;
+    height: 47px;
+    border: 1px solid rgb(97, 100, 100);
+    padding-left: 10px;
+}
+
+.flexcontact {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.subject {
+    width: 100%;
+    height: 47px;
+    border: 1px solid rgb(97, 100, 100);
+    padding-left: 10px;
+}
+
+.send {
+    width: 135px;
+    height: 58px;
+    background-color: white;
+    color: rgb(255, 94, 10);
+    border: 1px solid orange;
+    margin-bottom: 20px;
+}
+
+.senddiv {
+    padding-top: 30px;
+}
+
+.Touch {
+    color: rgb(66, 63, 141);
+}
+
+
+.send:hover {
+    background-color: rgb(255, 87, 0);
+    color: white;
+}
+
+.california {
+    font-size: 16px;
+    margin: 0;
+}
+
+.rose {
+    font-size: 16px;
+    color: rgb(138, 142, 150);
+    margin: 0;
+}
+
+.flexhouse {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.bibi {
+    font-size: 30px;
+}
+
+.paddingcali {
+    padding-left: 15px;
+}
+
+@media (max-width: 992px) {
+    .woodname {
+        margin-left: 0;
+    }
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+@media (max-width: 992px) {
+    .business {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .imgss {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .title1 {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    .titletrusted {
+        text-align: left;
+    }
+
+    .titlepage {
+        text-align: left;
+    }
+
+    .help {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .marketingcontent {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .imgss3 {
+        padding-top: 30px;
+    }
+
+    .plan {
+        font-size: 30px;
+        padding-top: 30px;
+        text-align: left;
+        padding-left: 12px;
+    }
+
+    .nothing {
+        padding-top: 30px;
+        text-align: left;
+        padding-left: 12px;
+    }
+
+    #navbarNavAltMarkup {
+        flex: none;
+    }
+
+    .buttonphone {
+        margin-top: 15px;
+    }
+
+    .positionheader {
+        padding: 10px !important;
+    }
+}
+
+@media (max-width: 470px) {
+    .echamedia {
+        display: none;
+    }
+}
+
+.imgss3 {
+    width: 100%;
+}
+
+.lpage2 {
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+
+.navcolour {
+    color: rgb(75, 71, 146);
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 14px;
+}
+
+.navcolour:hover {
+    color: rgb(255, 112, 39);
+}
+
+
+#navbarNavAltMarkup {
+    justify-content: end;
+}
+
+.buttonphone {
+    width: 223px;
+    height: 54px;
+    background-color: rgb(255, 112, 39);
+    border-radius: 50px;
+    margin-left: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: none;
+}
+
+.blogimg {
+    width: 100%;
+}
+
+.paddingblog {
+    padding-top: 100px;
+}
+
+.paddingtopgoogle {
+    padding-top: 30px;
+    padding-left: 15px;
+    box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+}
+
+.colourdominion {
+    color: rgb(146, 153, 186);
+}
+
+.flexicon {
+    display: flex;
+    padding-top: 15px;
+}
+
+.commets {
+    padding-left: 15px;
+}
+
+.travellife:hover {
+    color: rgb(255, 105, 28);
+}
+
+.commets:hover {
+    color: rgb(255, 105, 28);
+}
+
+
+.googleink:hover {
+    color: rgb(255, 105, 28);
+}
+
+
+.plaspan {
+    padding: 4px 18px;
+    border: 1px solid #423F8D;
+    border-radius: 20px;
+}
+
+.back-to-top {
+    padding: 20px 20px;
+    background-color: rgb(255, 87, 0);
+    position: absolute;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    right: 20px;
+    bottom: 50px;
+    font-weight: bold;
+}
+
+.postionrelative {
+    position: relative;
+}
+
+.hongphuc {
+    text-align: center;
+    padding-top: 150px;
+    color: rgb(188, 163, 177);
+}
+
+.hongphucmess {
+    color: rgb(255, 87, 0);
+    text-decoration: none;
+}
+
+.heart {
+    color: rgb(255, 87, 0);
+    padding-right: 5px;
+}
+
+.alignskibidi {
+    justify-content: center;
+}
+
+.ionicpadding {
+    padding-top: 50px;
+}

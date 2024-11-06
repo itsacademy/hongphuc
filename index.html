@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="script.js">
 </head>
 
-<body class="postionrelative">
+<body class="postionrelative backgoundforbody">
     <section class="home">
         <nav class="navbar navbar-expand-lg navbar-light headerig">
             <div class="container-fluid positionheader">
@@ -32,50 +32,157 @@
                         <a class=" navcolour" href="./services.html">Services</a>
                         <a class=" navcolour" href="./Blog.html">Blog</a>
                         <a class=" navcolour" href="./contact.html">Contacts</a>
-                        <button class="buttonphone"><i class="bi bi-telephone"></i> +84 0366965868</button>
+                        <button type="button" class=" buttonphone" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"><i class="bi bi-telephone"></i>
+                            +84 0366965868
+                        </button>
+
                     </div>
                 </div>
             </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Phone number</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Our phone number is 0366965868!
+                        </div>
+                        <div class="modal-footer">
+                            <div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" id="liveToastBtn">Save and
+                                    changes</button>
+                                <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                                    <div id="liveToast" class="toast hide" role="alert" aria-live="assertive"
+                                        aria-atomic="true">
+                                        <div class="toast-header">
+                                            <i class="bi bi-balloon-heart rounded me-2"></i>
+                                            <strong class="me-auto">Thanks!!!</strong>
+                                            <small>Now</small>
+                                            <button type="button" class="btn-close" data-bs-dismiss="toast"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="toast-body">
+                                            Thanks you for calling !!!!!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </nav>
-        <section class="container homepage">
+        <div class="container homepage">
             <div class="row">
                 <div class="col-sm-6">
                     <h1 class="title">Build audience and grow your brand</h1>
                     <p class="information">Content marketing is nothing but offering users value.
                         It is not just about traffic minion customers.</p>
-                    <button class="explore">Explore Us</button>
+                    <button class="explore"><a class="aboutus" href="About.html">Explore Us</a></button>
                 </div>
                 <div class="col-sm-6">
                     <img class="imgss" src="https://preview.colorlib.com/theme/expo/assets/img/hero/hero-img.png.webp"
                         alt="">
                 </div>
             </div>
-        </section>
-    </section>
-    <section class="container ionicpadding">
-        <div class="row alignskibidi">
-            <div class="col-sm-2">
-                <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand6.png" alt="">
-            </div>
-            <div class="col-sm-2 echamedia">
-                <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand4.png" alt="">
-            </div>
-            <div class="col-sm-2 echamedia">
-                <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand2.png" alt="">
-            </div>
-            <div class="col-sm-2 echamedia">
-                <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand5.png" alt="">
-            </div>
-            <div class="col-sm-2 echamedia">
-                <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand1.png" alt="">
-            </div>
         </div>
     </section>
-
     <section class="center container titletrusted">
         <h4 class="trusted">Trusted by over 3,000 world is leading companies</h4>
         <p class="content">Content marketing is nothing but offering users value. It is not just about
             traffic minion <br>consectetur adipiscing elitd do eiusmod tempor incididun.</p>
+    </section>
+    <section class="container ionicpadding">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row alignskibidi">
+                        <div class="col-sm-2">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand6.png" alt="">
+                        </div>
+                        <div class="col-sm-2 echamedia">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand4.png" alt="">
+                        </div>
+                        <div class="col-sm-2 echamedia">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand2.png" alt="">
+                        </div>
+                        <div class="col-sm-2 echamedia">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand5.png" alt="">
+                        </div>
+                        <div class="col-sm-2 echamedia">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand1.png" alt="">
+                        </div>
+                        <div class="col-sm-2 echamedia">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row alignskibidi">
+                        <div class="col-sm-2">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand6.png" alt="">
+                        </div>
+                        <div class="col-sm-2 echamedia">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand4.png" alt="">
+                        </div>
+                        <div class="col-sm-2 echamedia">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand2.png" alt="">
+                        </div>
+                        <div class="col-sm-2 echamedia">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand5.png" alt="">
+                        </div>
+                        <div class="col-sm-2 echamedia">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand1.png" alt="">
+                        </div>
+                        <div class="col-sm-2 echamedia">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row alignskibidi">
+                        <div class="col-sm-2">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand6.png" alt="">
+                        </div>
+                        <div class="col-sm-2 echamedia">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand4.png" alt="">
+                        </div>
+                        <div class="col-sm-2 echamedia">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand2.png" alt="">
+                        </div>
+                        <div class="col-sm-2 echamedia">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand5.png" alt="">
+                        </div>
+                        <div class="col-sm-2 echamedia">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand1.png" alt="">
+                        </div>
+                        <div class="col-sm-2 echamedia">
+                            <img src="https://preview.colorlib.com/theme/expo/assets/img/gallery/brand3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
 
     <section>
@@ -88,13 +195,14 @@
                 <div class="col-sm-6">
                     <div class="business">
                         <h1 class="title1">We take a steps to build a successful business</h1>
-                        <p class="information2">Content marketing is essential for building meaningful connections with
+                        <p class="information2">Content marketing is essential for building meaningful connections
+                            with
                             your
                             audience. It goes beyond mere traffic generation, focuses on delivering valuable and
                             relevant
                             content that engages users.
                         </p>
-                        <button class="explore3">Explore Us</button>
+                        <button class="explore3"><a class="aboutus" href="services.html">Services</a></button>
                     </div>
                 </div>
             </div>
@@ -102,7 +210,7 @@
     </section>
     <section class="titlepage">
         <div class="curve-background"></div>
-        <div class="center titletrusted">
+        <div class="center titletrusted container">
             <h1 class="help">How we can help</h1>
             <p class="marketingcontent">Content marketing is nothing but offering users value. It is not just about
                 traffic minion <br> consectetur
@@ -171,7 +279,7 @@
                 <h1 class="title">We are here to help you for better solutions</h1>
                 <p class="information">Prioritizing user needs and preferences, businesses can create impactful
                     marketing strategies that resonate and yield long-term results.</p>
-                <button class="explore">Explore Us</button>
+                <button class="explore"><a class="aboutus" href="Blog.html">Blog</a></button>
             </div>
             <div class="col-sm-6">
                 <img class="imgss3" src="https://preview.colorlib.com/theme/expo/assets/img/gallery/about2.png" alt="">
@@ -180,7 +288,8 @@
     </section>
     <section class="center">
         <h4 class="plan">Affordable pricing plan</h4>
-        <p class="nothing">Content marketing is nothing but offering users value. It is not just about traffic minion
+        <p class="nothing">Content marketing is nothing but offering users value. It is not just about traffic
+            minion
             <br>consectetur adipiscing elitd do eiusmod tempor incididun.
         </p>
     </section>
@@ -195,7 +304,29 @@
                     <p class="social">Social Media Marketing</p>
                     <p class="free">7 Free Optimization</p>
                     <p class="support">24/7 support</p>
-                    <button class="explore">Get Started Now</button>
+                    <button class="btn btn-primary explore" data-bs-toggle="modal" data-bs-target="#exampleModal1">Buy
+                        Now</button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Money</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            This cost: $1000
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="liveToastBtn"><a class="TPBANKBUY"
+                                    href="https://tpb.vn/ca-nhan">Buy</a></button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-sm-4 center">
@@ -207,7 +338,27 @@
                     <p class="social">Social Media Marketing</p>
                     <p class="free">8 Free Optimization</p>
                     <p class="support">24/7 support</p>
-                    <button class="explore">Get Started Now</button>
+                    <button class="btn btn-primary explore" data-bs-toggle="modal" data-bs-target="#exampleModal2">Buy
+                        Now</button>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabe2">Money</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            This cost: $2000
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="liveToastBtn"><a class="TPBANKBUY"
+                                    href="https://tpb.vn/ca-nhan">Buy</a></button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-sm-4 center">
@@ -219,7 +370,27 @@
                     <p class="social">Social Media Marketing</p>
                     <p class="free">9 Free Optimization</p>
                     <p class="support">24/7 support</p>
-                    <button class="explore">Get Started Now</button>
+                    <button class="btn btn-primary explore" data-bs-toggle="modal" data-bs-target="#exampleModal3">Buy
+                        Now</button>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabe3"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabe3">Money</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            This cost: $3000
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="liveToastBtn"><a class="TPBANKBUY"
+                                    href="https://tpb.vn/ca-nhan">Buy</a></button>
+                        </div>
+                    </div>
                 </div>
             </div>
     </section>
@@ -232,7 +403,7 @@
                         audience. It goes beyond mere traffic generation</p>
                 </div>
                 <div class="col-sm-2">
-                    <button class="talking">Start Talking</button>
+                    <button class="talking"><a class="start-talking"  href="About.html">Start Talking</a></button>
                 </div>
             </div>
         </div>
@@ -242,7 +413,8 @@
             <div class="row">
                 <div class="col-sm-3">
                     <img src="https://preview.colorlib.com/theme/expo/assets/img/logo/logo2_footer.png" alt="">
-                    <p class="home23">Land behold it created good saw after she'd Our set living. Signs midst dominion
+                    <p class="home23">Land behold it created good saw after she'd Our set living. Signs midst
+                        dominion
                         creepeth morning
                         laboris nisi ufsit aliquip.</p>
                     <a class="bibitwi" href=""><i class="bi bi-twitter"></i></a>
@@ -277,4 +449,14 @@
     <p class="hongphuc">Copyright ©2024 All rights reserved | This template is made with by <i
             class="bi bi-heart-fill heart"></i><a class="hongphucmess"
             href="https://www.facebook.com/profile.php?id=61551765045601">Hong Phuc</a></p>
+    </div>
 </body>
+<script>
+    document.getElementById("liveToastBtn").onclick = function () {
+        var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+        var toastList = toastElList.map(function (toastEl) {
+            return new bootstrap.Toast(toastEl)
+        })
+        toastList.forEach(toast => toast.show())
+    }
+</script>

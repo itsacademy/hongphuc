@@ -44,12 +44,12 @@
 }
 
 .explore {
-    width: 180px;
+    width: 180px ;
     height: 55px;
-    border-radius: 50px;
-    background-color: rgb(255, 105, 0);
+    border-radius: 50px !important;
+    background-color: rgb(255, 105, 0) !important;
     color: rgb(255, 254, 253);
-    border: none;
+    border: none !important;
 }
 
 .center {
@@ -197,7 +197,7 @@
 }
 
 .titlebg {
-    background-image: url('https://preview.colorlib.com/theme/expo/assets/img/gallery/section_bg02.jpg');
+    background-image: url("https://preview.colorlib.com/theme/expo/assets/img/gallery/section_bg02.jpg");
     padding: 80px 0;
 }
 
@@ -428,6 +428,7 @@ footer {
     .marketingcontent {
         font-size: 15px;
         text-align: left;
+
     }
 
     .imgss3 {
@@ -588,7 +589,7 @@ footer {
 }
 
 .ionicpadding {
-    padding-top: 50px;
+    padding-bottom: 120px;
 }
 
 .home1:hover {
@@ -607,11 +608,43 @@ footer {
     color: rgb(255, 112, 39);
 }
 
-.curve-background{
+.curve-background {
     background-image: url('https://preview.colorlib.com/theme/expo/assets/img/gallery/section_bg01.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
     margin-top: 120px;
     height: 200px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 0px !important;
+}
+
+
+.aboutus{
+    text-decoration: none;
+    color: white;
+}
+
+.TPBANKBUY{
+    color: white;
+    text-decoration: none;
+}
+
+.TPBANKBUY:hover{
+    color: white;
+}
+
+.titletrusted{
+    padding-top: 50px;
+}
+
+.start-talking{
+    text-decoration: none;
+    color: white;
+}
+
+.start-talking:hover{
+    color: white;
 }
